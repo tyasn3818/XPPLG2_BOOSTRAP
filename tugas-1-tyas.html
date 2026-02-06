@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <style>
+     .hero {
+            background-image: url(asset/background\ tyas.jpeg);
+            background-size: cover;
+            background-position: center;
+            min-height: 60vh;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            min-height: 100vh;
+        }
+
+        .foto {
+            max-width: 60px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+     <div class="hero">
+        <div class="overlay d-flex justify-content-center align-items-center text-center">
+            <div class="text-white">
+                <h1 class="display-5 fw-bold">Membangun Sistem Data Siswa Digital </h1>
+                <p class="fs-4">HALLO BESTI-BESTI AKU! Selamat Datang Di Sistem Data Siswa Digital !</p>
+                <button class="btn btn-primary btn-lg" onclick="window.location.href='#table'">Lihat Tabel</button>
+                <button class="btn btn-outline-light btn-lg">Detail</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container mt.4 text-center ">
+        <h2>TABEL DATA SISWA</h2>
+
+        <table class="table table-striped table-bordered table-hover align-middle text-center" id="table">
+            <thead>
+                <tr class="table table-success">
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Foto</th>
+                    <th>Kelas</th>
+                    <th>Status</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>AURORA</td>
+                    <td><img src="asset/silpi.jpeg" alt="SMK" class="foto rounded-circle d-block mx-auto img-thumbnail img-fluit rounded" height="80px"></td>
+                    <td>PPLG</td>
+                    <td><span class="badge bg-success">Aktif</td>
+                    <td><button class="btn btn-warning btn-sm">Edit</button>  <button class="btn btn-danger btn-sm">Hapus</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>AWA</td>
+                    <td><img src="asset/febriela.jpeg" alt="SMK" class="foto rounded-circle d-block mx-auto img-thumbnail img-fluit rounded" height="80px"></td>
+                    <td>PPLG</td>
+                    <td><span class="badge bg-warning">Izin</td>
+                    <td><button class="btn btn-warning btn-sm">Edit</button>  <button class="btn btn-danger btn-sm">Hapus</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>SAFITRI</td>
+                    <td><img src="asset/fitri.jpeg" alt="SMK" class="foto rounded-circle d-block mx-auto img-thumbnail img-fluit rounded" height="80px"></td>
+                    <td>PPLG</td>
+                    <td><span class="badge bg-danger">Alfa</td>
+                    <td><button class="btn btn-warning btn-sm">Edit</button>  <button class="btn btn-danger btn-sm">Hapus</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>TYAS</td>
+                    <td><img src="asset/ning.jpeg" alt="SMK" class="foto rounded-circle d-block mx-auto img-thumbnail img-fluit rounded" height="80px"></td>
+                    <td>PPLG</td>
+                    <td><span class="badge bg-success">Aktif</td>
+                    <td><button class="btn btn-warning btn-sm">Edit</button>  <button class="btn btn-danger btn-sm">Hapus</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+    <div class="justify-content-center align-items-center text-center">
+        <div class="text-white">
+            <button class="btn btn-primary btn-lg">SIMPAN</button>
+            <button class="btn btn-outline btn-secondary btn-lg text-center">DETAIL</button>
+        </div>
+    </div>
+</body>
+</html>
+</head>
+<body>
+    
+</body>
+</html>[p]
